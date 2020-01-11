@@ -23,7 +23,7 @@ img {
 	text-decoration: none;
 }
 /* centering css for all elements */
-.headingcontainerforthewebsite,.headingcontainerformapsearchboxcard,#pac-input,.headingcontainerone,.headingcontainertwo,#footer,.bg-light-package-deals,.package-deals-home-page,.bg-white-useful-information,.card-title-useful-information,.useful-information,.btn-outline-white,.footericon:hover,.fas,.mapcontainercard,#map,.card-header,.usefulone,table,td,tr,.footercard,.copyrightcontainer,.aboutus,.lead-heading,p,.footersocialicons,#exampleModal,form,.bg-white-useful-information,.modal,.modal-dialog {
+.headingcontainerforthewebsite,.headingcontainerformapsearchboxcard,#searchboxinput,.headingcontainerone,.headingcontainertwo,#footer,.bg-light-package-deals,.package-deals-home-page,.bg-white-useful-information,.card-title-useful-information,.useful-information,.btn-outline-white,.footericon:hover,.fas,.mapcontainercard,#map,.card-header,.usefulone,table,td,tr,.footercard,.copyrightcontainer,.aboutus,.lead-heading,p,.footersocialicons,#exampleModal,form,.bg-white-useful-information,.modal,.modal-dialog {
 	text-align: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
@@ -122,7 +122,7 @@ img {
 .mapcontainercard {
 	background-color:#572162;
 }
-#pac-input,form {
+#searchboxinput,form {
 	background-color:#AFAAD2;
 	color: rgba(0,0,0,1.0);
 	border: 3px solid #210B2C;
