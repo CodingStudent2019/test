@@ -10,3 +10,4 @@
 // search-box input field
 var searchInputBox = document.getElementById('searchInputBox');
 var searchBox = new google.maps.places.SearchBox(searchInputBox);
+
