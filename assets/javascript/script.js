@@ -8,5 +8,6 @@
       }
 
 // search-box input field
-var searchinputbox = document.getElementById('searchboxinput');
-map.controls[google.maps.ControlPosition.TOP].push(searchinputbox);
+var searchInputBox = document.getElementById('searchInputBox');
+var searchBox = new google.maps.places.SearchBox(searchInputBox);
+map.controls[google.maps.ControlPosition.CENTER].push(searchInputBox);
