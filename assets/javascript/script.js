@@ -1,3 +1,4 @@
+// simple map
  var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -6,3 +7,6 @@
         });
       }
 
+// search-box input field
+var searchinputbox = document.getElementById('searchboxinput');
+map.controls[google.maps.ControlPosition.TOP].push(searchinputbox);
