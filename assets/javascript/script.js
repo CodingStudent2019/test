@@ -7,6 +7,7 @@ function initMap() {
    lng: -75.165222
   },
   zoom: 10
+   mapTypeId: 'roadmap'
  });
 
  marker = new google.maps.Marker({
@@ -38,5 +39,7 @@ var input = document.getElementById('searchboxinput');
 var searchBox = new google.maps.places.SearchBox(input, {
   bounds: defaultBounds
 });
+
+
 
 }
