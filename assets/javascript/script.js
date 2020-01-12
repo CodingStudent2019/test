@@ -1,13 +1,9 @@
-// simple map
- var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 39.952583, lng: -75.165222},
-          zoom: 10
-        });
-      }
+var defaultBounds = new google.maps.LatLngBounds(
+  new google.maps.LatLng(-33.8902, 151.1759),
+  new google.maps.LatLng(-33.8474, 151.2631));
 
-// search-box input field
-var searchInputBox = document.getElementById('searchInputBox');
-var searchBox = new google.maps.places.SearchBox(searchInputBox);
+var input = document.getElementById('searchTextField');
 
+var searchBox = new google.maps.places.SearchBox(input, {
+  bounds: defaultBounds
+});
