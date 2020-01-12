@@ -11,6 +11,7 @@ function initMap() {
 
  marker = new google.maps.Marker({
     map: map,
+    icon: icon,
     draggable: true,
     animation: google.maps.Animation.DROP,
     position: {lat: 39.952583, lng: -75.165222}
