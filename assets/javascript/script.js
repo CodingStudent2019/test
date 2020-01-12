@@ -18,6 +18,14 @@ function initMap() {
   marker.addListener('click', toggleBounce);
 }
 
+function toggleBounce() {
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+
 function drop() {
   for (var i =0; i < markerArray.length; i++) {
     setTimeout(function() {
