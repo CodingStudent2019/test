@@ -2,12 +2,9 @@
 
 function initMap() {
  map = new google.maps.Map(document.getElementById('map'), {
-  center: {
-   lat: 39.952583,
-   lng: -75.165222
-  },
-  zoom: 10
-   mapTypeId: 'roadmap'
+  center: {lat: 39.952583, lng: -75.165222},
+  zoom: 10,
+   mapTypeId: 'roadmap'  
  });
 
  marker = new google.maps.Marker({
@@ -39,7 +36,5 @@ var input = document.getElementById('searchboxinput');
 var searchBox = new google.maps.places.SearchBox(input, {
   bounds: defaultBounds
 });
-
-
 
 }
