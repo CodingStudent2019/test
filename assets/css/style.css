@@ -44,11 +44,11 @@ img {
 	font-weight:bold;
 }
 /* all classes and ids with margin:0 auto */
-.lead-heading,#map,.mapcontainercard,.list-group-social,.useful-information,.bg-white-useful-information,.card-title-useful-information,.text-white {
+.lead-heading,#map,.mapcontainercard,.list-group-social,.useful-information,.bg-white-useful-information,.card-title-useful-information,.text-white,form {
 	margin: 0 auto;
 }
 /* all classes and ids with padding:2rem */
-.headingcontainerforthewebsite,.headingcontainerone,.headingcontainertwo,.bg-light-package-deals,.package-deals-home-page,.bg-white-useful-information,.text-white,.aboutus,.footersocialicons,.list-group-social,.footercard,.copyrightcontainer {
+.headingcontainerforthewebsite,.headingcontainerone,.headingcontainertwo,.bg-light-package-deals,.package-deals-home-page,.bg-white-useful-information,.text-white,.aboutus,.footersocialicons,.list-group-social,.footercard,.copyrightcontainer,form {
 	padding:2rem;
 }
 /* all classes and ids with color: rgba(255,255,255,1.0);
@@ -202,13 +202,13 @@ tr,td {
 	margin-top: 70px;
 }
 /* sign-up section for the footer */
-#exampleModal,form {
+#exampleModal {
 	padding:1rem;
 	margin:0 auto;
 }
 .register,.modalbutton {
 	margin: 20px 0px 20px 0px;
-	background-color: rgba(87,33,98,0.99);
+	background-color: rgba(87,33,98,1.0);
 	border: 5px solid rgba(87,33,98,0.99);
 	height: 3rem;
 	width: 8rem;
