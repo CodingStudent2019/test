@@ -1,7 +1,10 @@
  function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -33.8688, lng: 151.2195},
-          zoom: 13,
+          center: {
+   lat: 39.952583,
+   lng: -75.165222
+  },
+          zoom: 10,
           mapTypeId: 'roadmap'
         });
 
