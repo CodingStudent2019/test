@@ -63,16 +63,21 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card mapcontainercard">
-                        <input id="searchboxinput" class="form-control controls" type="text" aria-label="Sizing example input" placeholder="ENTER A SEARCH TERM">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Map Container -->
-        <div class="container-fluid mapandinfowindow">
-            <div class="row">
-                <div class="col-sm">
-                    <div id="map"></div>                    
+                        <!-- Search input -->
+<input id="searchInput" class="controls" type="text" placeholder="Enter a location">
+
+<!-- Google map -->
+<div id="map"></div>
+
+<!-- Display geolocation data -->
+<ul class="geo-data">
+    <li>Full Address: <span id="location"></span></li>
+    <li>Postal Code: <span id="postal_code"></span></li>
+    <li>Country: <span id="country"></span></li>
+    <li>Latitude: <span id="lat"></span></li>
+    <li>Longitude: <span id="lon"></span></li>
+</ul>
+</div>                    
                 </div>
             </div>
         </div>
