@@ -34,7 +34,7 @@ img {
 	text-decoration: none;
 }
 /* all classes and ids with a font size:1rem and font-weight:bold */
-.bg-navbar,.navbar-brand,.nav-item,#searchboxinput,table,.copyrightcontainer,.btn-outline-white,#footer,.register,#searchboxinput {
+.bg-navbar,.navbar-brand,.nav-item,table,.copyrightcontainer,.btn-outline-white,#footer,.register {
 	font-size:1rem;
 	font-weight:bold;
 }
@@ -48,7 +48,7 @@ img {
 	margin: 0 auto;
 }
 /* all classes and ids with padding:2rem */
-.headingcontainerforthewebsite,#searchboxinput,.headingcontainerone,.headingcontainertwo,.bg-light-package-deals,.package-deals-home-page,.bg-white-useful-information,.text-white,.aboutus,.footersocialicons,.list-group-social,.footercard,.copyrightcontainer {
+.headingcontainerforthewebsite,.headingcontainerone,.headingcontainertwo,.bg-light-package-deals,.package-deals-home-page,.bg-white-useful-information,.text-white,.aboutus,.footersocialicons,.list-group-social,.footercard,.copyrightcontainer {
 	padding:2rem;
 }
 /* all classes and ids with color: rgba(255,255,255,1.0);
