@@ -63,8 +63,44 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card mapcontainercard">
-                       <input id="searchboxinput" class="form-control controls" type="text" aria-label="Sizing example input" placeholder="ENTER A SEARCH TERM">
-                        <div id="map"></div>
+                       <div style="float: right;">
+    <div id="map"></div>
+</div>
+
+<div style="float: left; width: 400;">
+    <form name="frm_map" id="frm_map">
+        <table>
+            <tr>
+                <th>Address</th>
+                <td>
+                    <input type="text" name="address" id="address" value="Akersloot, Netherlands">
+                </td>
+            </tr>
+            <tr>
+                <th>Radius</th>
+                <td>
+                    <input type="text" name="radius" id="radius" value="5" placeholder="In KM">
+                </td>
+            </tr>
+            <tr>
+                <th>Types</th>
+                <td>
+                    <div id="type_holder" style="height: 200px; overflow-y: scroll;">
+                        <!-- Dynamic Content -->    
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="Show" id="submit" onclick="renderMap();">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
                     </div>                    
                 </div>
             </div>
@@ -269,7 +305,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDedAVP6D3-XsAJRT6W-tC7DU-_loQ8Fwo&libraries=places&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDedAVP6D3-XsAJRT6W-tC7DU-_loQ8Fwo&libraries=places&callback=initialize" async defer></script>
     <script src="assets/javascript/map.js"></script>
 </body>
 
