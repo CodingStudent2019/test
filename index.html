@@ -64,7 +64,7 @@
             <div class="row">
                 <div class="col-sm">
                     <div style="float: center;">
-                        <div id="map" style="width:900px; height:600px;"></div>
+                        <div id="map"></div>
                     </div>
                 </div>
             </div>
@@ -72,39 +72,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <div style="float: center; width:900px; height:600px;">
-                        <form name="frm_map" id="frm_map">
-                            <table>
-                                <tr>
-                                    <th>Address</th>
-                                    <td>
-                                        <input type="text" name="address" id="address" value="Philadelphia, Pennsylvania">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Radius</th>
-                                    <td>
-                                        <input type="text" name="radius" id="radius" value="5000" placeholder="In KM">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Types</th>
-                                    <td>
-                                        <div id="type_holder" style="height: 200px; overflow-y: scroll;">
-                                            <!-- Dynamic Content -->
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>
-                                        <input type="button" value="Show" id="submit" onclick="renderMap();">
-                                        <input type="reset" value="Reset">
-                                    </td>
-                                </tr>
-                            </table>
-                        </form>
-                    </div>
+                    <form name="frm_map" id="frm_map">
+                        <table>
+                            <tr>
+                                <th>Address</th>
+                                <td>
+                                    <input type="text" name="address" id="address" value="Philadelphia, Pennsylvania">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Radius</th>
+                                <td>
+                                    <input type="text" name="radius" id="radius" value="5000" placeholder="In KM">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Types</th>
+                                <td>
+                                    <div id="type_holder" style="height: 200px; overflow-y: scroll;">
+                                        <!-- Dynamic Content -->
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="button" value="Show" id="submit" onclick="renderMap();">
+                                    <input type="reset" value="Reset">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
                 </div>
             </div>
         </div>
