@@ -81,9 +81,9 @@ function initMap() {
 }
 
 function toggleBounce() {
-    if (marker.getAnimation() !== null) {
-        marker.setAnimation(null);
+    if (this.getAnimation() !== null) {
+        this.setAnimation(null);
     } else {
-        marker.setAnimation(google.maps.Animation.BOUNCE);
+        this.setAnimation(google.maps.Animation.BOUNCE);
     }
 }
