@@ -20,15 +20,12 @@ function capitalizeFirstLetter(string) {
 var map;
 var infowindow;
 var autocomplete;
-var countryRestrict = {
-    'country': 'in'
-};
 var selectedTypes = [];
 
 function initialize() {
     autocomplete = new google.maps.places.Autocomplete((document.getElementById('address')), {
         types: ['(regions)'],
-        // componentRestrictions: countryRestrict
+     
     });
 
     var pyrmont = new google.maps.LatLng(52.5666644, 4.7333304);
