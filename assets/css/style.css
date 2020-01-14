@@ -119,6 +119,22 @@ img {
 	height: 800px;
 	width: 100%;
 }
+.mapcontainercard {
+	background-color:#572162;
+}
+form {
+	background-color:#AFAAD2;
+	color: rgba(0,0,0,1.0);
+	border: 3px solid #210B2C;
+}
+table,.form-control {
+	background-color:#FFD5D5;
+	color: rgba(0,0,0,1.0);
+	border: 3px solid #210B2C;
+}
+tr,td {
+	border: 1px solid #210B2C;
+}
 /* container for headings for package deals and useful information */
 .headingcontainerone,.headingcontainertwo {
 	font-size:38px;
