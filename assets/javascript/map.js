@@ -65,25 +65,4 @@ function initMap() {
         });
         map.fitBounds(bounds);
     });
-
-    var marker;
-
-    marker = new google.maps.Marker({
-        map: map,
-        draggable: true,
-        animation: google.maps.Animation.DROP,
-        position: {
-            lat: 39.952583,
-            lng: -75.165222
-        },
-    });
-    marker.addListener('click', toggleBounce);
-}
-
-function toggleBounce() {
-    if (this.getAnimation() !== null) {
-        this.setAnimation(null);
-    } else {
-        this.setAnimation(google.maps.Animation.BOUNCE);
-    }
 }
