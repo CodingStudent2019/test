@@ -55,8 +55,8 @@ function initMap() {
                     draggable: true,
                     animation: google.maps.Animation.DROP,
                     position: {
-                        lat: 59.327,
-                        lng: 18.067
+                        lat: 39.952583,
+                        lng: -75.165222
                     }
                 });
                 marker.addListener('click', toggleBounce);
