@@ -59,51 +59,42 @@
             </div>
         </div>
         <!-- Map Search Field Card -->
-        <div class="container-fluid mapcontainer">
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card mapcontainercard">
-                       <div style="float: right;">
-    <div id="map"></div>
-</div>
+        <div style="float: right;">
+            <div id="map" style="width:900px; height:600px;"></div>
+        </div>
 
-<div style="float: left; width: 400;">
-    <form name="frm_map" id="frm_map">
-        <table>
-            <tr>
-                <th>Address</th>
-                <td>
-                    <input type="text" name="address" id="address" value="Akersloot, Netherlands">
-                </td>
-            </tr>
-            <tr>
-                <th>Radius</th>
-                <td>
-                    <input type="text" name="radius" id="radius" value="5" placeholder="In KM">
-                </td>
-            </tr>
-            <tr>
-                <th>Types</th>
-                <td>
-                    <div id="type_holder" style="height: 200px; overflow-y: scroll;">
-                        <!-- Dynamic Content -->    
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input type="button" value="Show" id="submit" onclick="renderMap();">
-                    <input type="reset" value="Reset">
-                </td>
-            </tr>
-        </table>
-    </form>
-</div>
-
-                    </div>                    
-                </div>
-            </div>
+        <div style="float: left; width: 400;">
+            <form name="frm_map" id="frm_map">
+                <table>
+                    <tr>
+                        <th>Address</th>
+                        <td>
+                            <input type="text" name="address" id="address" value="Akersloot, Netherlands">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Radius</th>
+                        <td>
+                            <input type="text" name="radius" id="radius" value="5" placeholder="In KM">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Types</th>
+                        <td>
+                            <div id="type_holder" style="height: 200px; overflow-y: scroll;">
+                                <!-- Dynamic Content -->
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Show" id="submit" onclick="renderMap();">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </div>
         <!-- Heading Container for Package Deals -->
         <div class="container-fluid headingcontainerone" id="packagedeals">
